@@ -1,3 +1,5 @@
-x=1
-y=1
-print(x+y)
+def add(num1: int,num2: int) -> int:
+    return num1+num2
+
+if __name__=='__name__' :
+    print(add(3,7))
